@@ -1,0 +1,72 @@
+
+/*! elementor - v3.14.0 - 18-06-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: #69727d;
+    color: #fff
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+    color: #69727d;
+    border: 3px solid;
+    background-color: transparent
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+    margin-top: 8px
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+    width: 1em;
+    height: 1em
+}
+
+.elementor-widget-text-editor .elementor-drop-cap {
+    float: left;
+    text-align: center;
+    line-height: 1;
+    font-size: 50px
+}
+
+
+element.style {
+    width: 635px;
+    left: 0px;
+}
+
+
+.elementor-30 .elementor-element.elementor-element-6196b53:not(.elementor-motion-effects-element-type-background), .elementor-30 .elementor-element.elementor-element-6196b53 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #CDD7CA;
+}
+
+.elementor-30 .elementor-element.elementor-element-6196b53 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 40px 0px 40px 0px;
+}
+.elementor-section.elementor-section-stretched {
+    position: relative;
+    width: 100%;
+}
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
